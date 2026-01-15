@@ -1,4 +1,5 @@
 
+```
 ├── final_results/                   # [核心证据] 各工具的最终检测结果文件
 │   ├── llm_qwen_results.json        # Qwen-Coder 模型的推理结果 (包含 reason 字段)
 │   ├── codeql_results.sarif         # CodeQL 的扫描报告 (标准 SARIF 格式)
@@ -11,3 +12,7 @@
     ├── analyze_cwe_split.py         # 论文表2：计算 CWE-190 与 CWE-369 分项数据的脚本
     ├── analyse_sarif.py             # 论文表1：解析 CodeQL 结果并统计警报数的脚本
     └── analyse_llm.py               # 辅助脚本：分析 LLM 推理关键词
+
+
+```
+
